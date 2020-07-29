@@ -2,38 +2,22 @@
     display: grid;
     /* Hint: To change layout of grid look at
     line 5 */
-    grid-template-columns: auto auto auto;
+    grid-template-columns: auto;
     padding: 10px;
 }
 
-#myButton{
+
+#mybutton{
     height: 50px;
     width: 75px;
 } 
 #txtLogo{
-     display: inline-block;
-    position: absolute;
-        top: -50px; 
-        left: 280px;;
+     height: 230px;
+     width: 360px;
 }
 
-#output {
-    display: inline-block;
-    position: absolute;
-        bottom: 580px; 
-        left: 520px;;
-}
-
-#changeGreen{
-    display: inline-block;
-    position: absolute;
-        bottom: 540px; 
-        left: 390px;;
-}
-#changeRed{
-    display: inline-block;
-    position: absolute;
-        bottom: 540px; 
-        left: 610px;;
+.grid-item{
+    text-align: center;
+        border: 3px solid black;
 }
 

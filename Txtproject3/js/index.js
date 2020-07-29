@@ -1,11 +1,13 @@
 function changeTextColor(color){
     // Add the function to change the image
-    document.getElementById("changeGreen").onclick = function(){
-        document.getElementById("output").style.color = 'green';
-    }
-    
-    document.getElementById("changeRed").onclick = function(){
-        document.getElementById("output").style.color = 'red';
-    }
+    var change_color = document.getElementById("output");
+    change_color.style.color = color;
 }
+//     if(color == 'green'){
+//     change_color.style.color = color
+//     }
 
+//     else{
+//         change_color.style.color = 'red'
+//      }
+// }
